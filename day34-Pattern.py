@@ -22,18 +22,3 @@ for i in range(1,a+1,2):
         print("*",end=" ")
     print()
     
-# for i in range(0,a):
-#     print("*",end=" ")
-# print()
-# for i in range(1,a+1,2):
-#     for j in range(0,i):
-#         print(" ",end="")
-#     for k in range(0,a-i):
-#         print("*",end=" ")
-#     print()
-# for i in range(1,a+1,2):
-#     for j in range(0,a-i):
-#         print(" ",end="")
-#     for k in range(0,i):
-#         print("*",end=" ")
-#     print()
