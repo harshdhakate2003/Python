@@ -52,3 +52,79 @@ num2=[4,5,6]
 n = num1 + num2
 print(n)
 
+
+# Python List Operations
+
+# Create a list
+numbers = [10, 20, 30, 40, 50]
+print("Original List:", numbers)
+
+# Access elements
+print("First Element:", numbers[0])
+print("Last Element:", numbers[-1])
+
+# append() - Add one element
+numbers.append(60)
+print("After append:", numbers)
+
+# extend() - Add multiple elements
+numbers.extend([70, 80, 90])
+print("After extend:", numbers)
+
+# insert() - Add element at a specific position
+numbers.insert(1, 15)
+print("After insert:", numbers)
+
+# remove() - Remove a specific element
+numbers.remove(30)
+print("After remove:", numbers)
+
+# pop() - Remove the last element
+numbers.pop()
+print("After pop:", numbers)
+
+# pop(index) - Remove element using index
+numbers.pop(0)
+print("After pop(index):", numbers)
+
+# len() - Find length
+print("Length:", len(numbers))
+
+# sort() - Sort the list
+numbers.sort()
+print("Sorted List:", numbers)
+
+# reverse() - Reverse the list
+numbers.reverse()
+print("Reversed List:", numbers)
+
+# max() and min()
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+
+# sum() - Calculate sum
+print("Sum:", sum(numbers))
+
+# Check if element exists
+if 20 in numbers:
+    print("20 is present in the list")
+
+# count() - Count an element
+numbers.append(20)
+print("Count of 20:", numbers.count(20))
+
+# index() - Find the index of an element
+print("Index of 20:", numbers.index(20))
+
+# Slicing
+print("First 3 Elements:", numbers[:3])
+print("Elements from Index 1 to 3:", numbers[1:4])
+
+# copy() - Copy a list
+new_list = numbers.copy()
+print("Copied List:", new_list)
+
+# clear() - Remove all elements
+numbers.clear()
+print("After clear:", numbers)
+
