@@ -27,29 +27,3 @@
 # print(f"dict copy : {dict_copy}")
 
 
-#----------------------------------------------------------------------
-# **kvargs (Variable length arguments in function)
-
-# def display(**kvargs):
-#     for k, v in kvargs.items():
-#         print(f"Key : {k}")
-#         print(f"Value : {v}")
-#         print("---------------")
-
-# display(name="alice", age=20, city="nagpur")
-
-
-#---------------------------------------------------
-
-# def display(**kv):
-#     print("contact details : ")
-#     print("--------------------")
-#     for k, v in kv.items():
-#         print(f"{k} : {v}")
-
-# fn=input("Enter your full name : ")
-# city=input("Enter the name of city : ")
-# ph=int(input("Enter phone number : "))
-# c=input("Enter the course name : ")
-
-# display(name=fn, city=city, Phone=ph, course=c)
