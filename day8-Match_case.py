@@ -53,26 +53,3 @@
 
 
 
-#--------------------------------------------------------------------
-# WAP to admission details
-
-print("please select an option ")
-print("1. Admission\n2. fees payment\n3. Exit")
-choice=int(input("Choose an option : "))
-match choice:
-    case 1:
-        name=input("Enter name : ")
-        course=input("enter course : ")
-        print(f"admission details")
-        print(f"full name : {name}")
-        print(f"course name : {course}")
-    case 2:
-        name=input("Enter name : ")
-        amount=int(input("Enter fees amount : "))
-        print(f"payment details")
-        print(f"full name : {name}")
-        print(f"amount : {amount}")
-    case 3:
-        print("Thanks , have a nice day sir!")
-    case _:
-        print("Invalid option")
