@@ -116,27 +116,5 @@
 #     num+=1
 # print(pro)
 
-#---------------------------
-#accept 3 subject marks using while then print total,per and grade
-
-# num=3
-# total=0
-# while num>=1:
-#     sub=int(input("Enter a marks of subject : "))
-#     total=total+sub
-#     num-=1
-# percent=(total/300)*100
-
-# print(f"Total = {total}")
-# print(f"percent = {percent}")
-
-# if(percent>=85):
-#     print("Grade A")
-# elif percent>=70:
-#     print("Grade B")
-# elif percent>=50:
-#     print("Grade C")
-# else:
-#     print("Grade F")
 
 
