@@ -17,19 +17,6 @@
 
 # ------------------------------------------------------
 
-# print("\nPrint form 10, 8, 6, 4, 2")
-# for i in range(10,0,-2):  # range(start,end,decreament)
-#     print(i,end=" ")
-
-# print("\n")
-
-#----------------loop on string------------------------------
-
-# str1="itprenuer"
-# for i in str1:
-#     print(i,end=" ")
-
-# -------------------------------------------------------
 
 # str2=input("Enter your name : ")
 # for i in range(5):
