@@ -35,19 +35,5 @@
 # print(numbers[::2])      #(10, 12, 14)
 # print(numbers[::-1])     #(15, 14, 13, 12, 11, 10)
 
-#--------------------------------------------------------------------------
-# There are only 2 method are present in the tuple due to thier immutibility
 
-numbers=(10,11,12,13,11,14,15)
-
-# count method
-print(numbers.count(11))
-
-# index method
-print(numbers.index(13))
-
-n=len(numbers)
-print(n)
-for i in range(n):
-    print(numbers[i])
 
