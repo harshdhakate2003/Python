@@ -128,3 +128,73 @@ print("Copied List:", new_list)
 numbers.clear()
 print("After clear:", numbers)
 
+# Python List Operations
+
+numbers = [10, 20, 30, 40, 50]
+
+print("Original list:", numbers)
+
+# 1. Add element at the end
+numbers.append(60)
+print("After append:", numbers)
+
+# 2. Add element at a specific position
+numbers.insert(2, 25)
+print("After insert:", numbers)
+
+# 3. Add multiple elements
+numbers.extend([70, 80])
+print("After extend:", numbers)
+
+# 4. Access an element
+print("First element:", numbers[0])
+print("Last element:", numbers[-1])
+
+# 5. Update an element
+numbers[1] = 200
+print("After update:", numbers)
+
+# 6. Remove an element by value
+numbers.remove(25)
+print("After remove:", numbers)
+
+# 7. Remove an element by index
+numbers.pop(2)
+print("After pop:", numbers)
+
+# 8. Find length
+print("Length:", len(numbers))
+
+# 9. Check if element exists
+print("30 exists:", 30 in numbers)
+
+# 10. Count an element
+print("Count of 30:", numbers.count(30))
+
+# 11. Find index
+print("Index of 40:", numbers.index(40))
+
+# 12. Sort ascending
+numbers.sort()
+print("Ascending:", numbers)
+
+# 13. Sort descending
+numbers.sort(reverse=True)
+print("Descending:", numbers)
+
+# 14. Reverse the list
+numbers.reverse()
+print("After reverse:", numbers)
+
+# 15. Copy the list
+new_list = numbers.copy()
+print("Copied list:", new_list)
+
+# 16. Slicing
+print("First 3 elements:", numbers[:3])
+print("Last 3 elements:", numbers[-3:])
+
+# 17. Delete all elements
+numbers.clear()
+print("After clear:", numbers)
+
