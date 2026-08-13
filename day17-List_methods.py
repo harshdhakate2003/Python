@@ -174,27 +174,4 @@ print("Count of 30:", numbers.count(30))
 # 11. Find index
 print("Index of 40:", numbers.index(40))
 
-# 12. Sort ascending
-numbers.sort()
-print("Ascending:", numbers)
-
-# 13. Sort descending
-numbers.sort(reverse=True)
-print("Descending:", numbers)
-
-# 14. Reverse the list
-numbers.reverse()
-print("After reverse:", numbers)
-
-# 15. Copy the list
-new_list = numbers.copy()
-print("Copied list:", new_list)
-
-# 16. Slicing
-print("First 3 elements:", numbers[:3])
-print("Last 3 elements:", numbers[-3:])
-
-# 17. Delete all elements
-numbers.clear()
-print("After clear:", numbers)
 
