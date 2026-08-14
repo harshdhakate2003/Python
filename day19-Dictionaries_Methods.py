@@ -18,12 +18,5 @@
 # my_dict.update({"city" : "Boston", "job" : "Engineer"})
 # print(my_dict)
 
-# my_dict.clear()
-# print(f"dict : {my_dict}")
-
-# new_dict= {"a" : 1, "b" : 2}
-
-# dict_copy = new_dict.copy()
-# print(f"dict copy : {dict_copy}")
 
 
