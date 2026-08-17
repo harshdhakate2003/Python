@@ -12,21 +12,6 @@ co.extend(cl)
 print("After extending")
 print(co)
 
-# insert
-co.insert(1,"javascript")
-print("after inserting at position")
-print(co)
-
-# remove
-co.remove("javascript")
-print("after removing")
-print(co)
-
-# pop
-p=co.pop(1)
-print("after pop")
-print(f"pop item {p}")
-print(co)
 
 # index
 i=co.index("html")
