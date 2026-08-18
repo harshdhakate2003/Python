@@ -49,8 +49,4 @@
 # print(s(4))
 # print(r(1,10))
 
-#-----------------custom module---------------------------
-
-def display(name):
-    return f"Hello {name}"
 
