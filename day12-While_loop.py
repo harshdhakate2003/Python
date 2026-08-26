@@ -95,26 +95,6 @@
 #     ch=input("do you want to continue press yes or no : ")
 # print("bye")
 
-#------------------------------------------
-#sum of first 5 natural no.
-
-# num=1
-# sum=0
-# while num<=5:
-#     sum=sum+num
-#     num+=1
-# print(sum)
-
-
-#---------------------------
-#product of first 5 natural no.
-
-# num=1
-# pro=1
-# while num<=5:
-#     pro=pro*num
-#     num+=1
-# print(pro)
 
 
 
