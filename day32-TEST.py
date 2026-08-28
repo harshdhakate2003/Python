@@ -10,17 +10,6 @@
 #     print("Zero")
 
 
-# b) Write the same program using match-case statement 
-
-# num=int(input("Enter a number : "))
-# match num:
-#     case 0:
-#         print("Zero")
-#     case _ if num>0:
-#         print("Positive")
-#     case _:
-#         print("Negative")
-
 
 # c) Accept percentage from user and print grade using if-elif ladder: ≥90 → A+ ≥80 → A ≥70 → B ≥60 → C ≥50 → D <50 → Fail 
 
