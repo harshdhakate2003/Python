@@ -22,10 +22,3 @@ area=length*breath
 print(f"Area = {area}")
 
 
-# write a program to accept radius and print area and curcumferance of circle
-
-radius=int(input("Enter radius : "))
-area=3.14*radius*radius
-circ=2+3.14+radius
-print(f"Area = {area}")
-print(f"circ = {circ}")
