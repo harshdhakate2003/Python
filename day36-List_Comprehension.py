@@ -117,13 +117,4 @@
 # newl=[x**2 for x in c if x>10]
 # print(newl)
 
-#------------string to list of character
-# str="python"
-# newl=[x for x in str]
-# print(newl)
-
-#------------print pass to marks which marks is greater than 40
-# result=[20,44,55,66,9]
-# newl=["pass" for x in result if x>40]
-# print(newl)
 
