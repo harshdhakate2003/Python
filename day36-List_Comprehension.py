@@ -112,9 +112,5 @@
 # newl=[float(x) for x in b]
 # print(newl)
 
-#------------square the number which is greater than 10
-# c=[2,4,55,66,3,11,454,45,4]
-# newl=[x**2 for x in c if x>10]
-# print(newl)
 
 
