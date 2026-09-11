@@ -107,10 +107,6 @@
 # newl=[x**2 for x in a if x%2!=0]
 # print(newl)
 
-#------------convert list element to float in given list b
-# b=[33,55,57,776,463,353,3622,2455]
-# newl=[float(x) for x in b]
-# print(newl)
 
 
 
