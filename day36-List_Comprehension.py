@@ -102,10 +102,6 @@
 # newl=[x**3 for x in a if x%2==0]
 # print(newl)
 
-#------------square all the odd number in above list 
-# a=[2,3,4,5,6,7]
-# newl=[x**2 for x in a if x%2!=0]
-# print(newl)
 
 
 
