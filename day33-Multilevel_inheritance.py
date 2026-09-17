@@ -132,28 +132,3 @@
 # obj.show_battery_size()
 
 
-#-------------------------------------------------------------------------
-
-# Task:
-# Make Child.speak() print both messages from Parent and GrandParent (in any order), then also print:
-# textI am Child
-# Possible Output (one valid version):
-# textI am Parent
-# I am Grandparent
-# I am Child
-
-
-# class Grandparent():
-#     def speak(self):
-#         print("I am grandparent")
-# class Parent(Grandparent):
-#     def speak(self):
-#         Grandparent.speak(self)
-#         print("I am parent")
-# class Child(Parent):
-#     def speak(self):
-#         Parent.speak(self)
-#         print("I am child")
-
-# c=Child()
-# c.speak()
