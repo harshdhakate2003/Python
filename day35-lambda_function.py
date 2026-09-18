@@ -215,12 +215,6 @@
 # print(sqr)
 # print(sum)
 
-#-----WAP get squares of only even numbers 
 
-a=[12,3,4,5,8,9]
-even=list(filter(lambda x:x%2==0,a))
-sqr=list(map(lambda x:x**2,even))
-print(even)
-print(sqr)
 
 
