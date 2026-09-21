@@ -206,14 +206,6 @@
 # print(newl)
 
 
-#-----WAP find sum of squares using map + reduce. square each number and then find the sum.
-
-# from functools import reduce
-# a=[2,10,11,13,3]
-# sqr=list(map(lambda x:x**2,a))
-# sum=reduce(lambda x,y:x+y,sqr)
-# print(sqr)
-# print(sum)
 
 
 
